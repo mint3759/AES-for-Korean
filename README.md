@@ -8,8 +8,8 @@
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | 1 | 1 Essay = 1 Essay Average Vector | 2 GRU Layer | Glove | Done |
 | 2 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | Glove | Done |
-| 3 | 1 Essay = m Word Vectors|2 GRU Layer | Glove | Code O, Learning X |
-| 4 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | pretrained BERT | Code O, learning X |
+| 3 | 1 Essay = m Word Vectors|2 GRU Layer | Glove | Code O  Learning X |
+| 4 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | pretrained BERT | Code O  Learning X |
 | 5 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | pretrained ELECTRA | Code X |
 | 6 | 1 Essay = ?? | Fine-tuning BERT | BERT | Planning |
 | 7 | 1 Essay = ?? | Fine-tuning ELECTRA | ELECTRA | Planning |
