@@ -18,7 +18,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | Combined | 1 Essay = 1 Essay Average Vector | GRU | Glove | Done | 0.6427 |
 | 2 | Combined | 1 Essay = 128 Sentence Average Vectors | GRU | Glove | Done | 0.7594 |
-| 3 | By prompt | 1 Essay = 128 Sentence Average Vectors | GRU | Glove | Done | 0.7594 |
+| 3 | By prompt | 1 Essay = 128 Sentence Average Vectors | GRU | Glove | Done |
 | 4 | Combined | 1 Essay = 768 Word Vectors| GRU | Glove | Learning |
 | 5 | By prompt | 1 Essay = 768 Word Vectors| GRU | Glove | Learning |
 | 6 | Combined | 1 Essay = 128 Sentence Average Vectors | GRU | pretrained BERT | Learning |
