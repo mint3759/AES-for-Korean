@@ -4,15 +4,16 @@
 ## Work in Progress
 
 ## Project Target
-|#|Input|Model|Embedding|Progress|
-|:---:|:---:|:---:|:---:|
-|1|1 Essay = 1 Essay Average Vector|2 GRU Layer|Glove|Done|
-|2|1 Essay = n Sentence Average Vectors|2 GRU Layer|Glove|Done|
-|3|1 Essay = m Word Vectors|2 GRU Layer|Glove|Code O, Learning X|
-|4|1 Essay = n Sentence Average Vectors|2 GRU Layer|pretrained BERT|Code O, learning X|
-|5|1 Essay = n Sentence Average Vectors|2 GRU Layer|pretrained ELECTRA|Code X|
-|6|1 Essay = ??|Fine-tuning BERT|BERT|Planning|
-|7|1 Essay = ??|Fine-tuning ELECTRA|ELECTRA|Planning|
+
+| Num | <center>Input</center> | <center>Model</center> | <center>Embedding</center> | <center>Progress</center> |
+|:-----:|:-----:|:-----:|:-----:|
+| 1 | 1 Essay = 1 Essay Average Vector | 2 GRU Layer | Glove | Done |
+| 2 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | Glove | Done |
+| 3 | 1 Essay = m Word Vectors|2 GRU Layer | Glove | Code O, Learning X |
+| 4 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | pretrained BERT | Code O, learning X |
+| 5 | 1 Essay = n Sentence Average Vectors | 2 GRU Layer | pretrained ELECTRA | Code X |
+| 6 | 1 Essay = ??|Fine-tuning BERT |BERT |Planning |
+| 7 | 1 Essay = ??|Fine-tuning ELECTRA |ELECTRA |Planning |
 
 ## Performance
 
