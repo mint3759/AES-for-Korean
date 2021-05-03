@@ -23,17 +23,17 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | Combined | 1 Essay = 1 Essay Average Vector | GRU | Glove | Done | 0.6427 |
 | 2 | Combined | 1 Essay = 128 Sentence Average Vectors | GRU | Glove | Done | 0.7594 |
-| 3 | By prompt | 1 Essay = 128 Sentence Average Vectors | GRU | Glove | Learning |
-| 4 | Combined | 1 Essay = 768 Word Vectors | GRU | Glove | Learning |
-| 5 | By prompt | 1 Essay = 768 Word Vectors | GRU | Glove | Learning |
-| 6 | Combined | 1 Essay = 128 Sentence Average Vectors | GRU | pretrained BERT | Coding |
-| 7 | Combined | 1 Essay = 768 Word Vectors | GRU | pretrained BERT | Coding |
-| 8 | By prompt | 1 Essay = ?? | GRU | pretrained BERT | Planning |
+| 3 | By prompt | 1 Essay = 128 Sentence Average Vectors | GRU | Glove | Done |
+| 4 | Combined | 1 Essay = 512 Word Vectors | GRU | Glove | Done | 0.7923 |
+| 5 | By prompt | 1 Essay = 512 Word Vectors | GRU | Glove | Done |
+| 6 | Combined | 1 Essay = 128 Sentence Average Vectors | GRU | pretrained BERT | Done | 0.7319 |
+| 7 | Combined | 1 Essay = 512 Word Vectors | GRU | pretrained BERT | Learning |
+| 8 | By prompt | 1 Essay = 1 Vector from BERT | GRU | pretrained BERT | Learning |
 | 9 | Combined | 1 Essay = 128 Sentence Average Vectors | GRU | pretrained ELECTRA | Coding |
-| 10| Combined | 1 Essay = 768 Word Vectors | GRU | pretrained ELECTRA | Coding |
-| 11| By prompt | 1 Essay = ?? | GRU | pretrained ELECTRA | Planning |
-| 12| Combined | 1 Essay = ?? | Fine-tuning BERT | BERT | Planning |
-| 13| Combined | 1 Essay = ?? | Fine-tuning ELECTRA | ELECTRA | Planning |
+| 10| Combined | 1 Essay = 512 Word Vectors | GRU | pretrained ELECTRA | Coding |
+| 11| By prompt | 1 Essay = 1 Vector from ELECTRA | GRU | pretrained ELECTRA | Coding |
+| 12| Combined | 1 Essay = 1 Vector from BERT | Fine-tuning BERT | BERT | Learning |
+| 13| Combined | 1 Essay = 1 Vector from ELECTRA | Fine-tuning ELECTRA | ELECTRA | Coding |
 
 ## Requirements
  - Tensorflow 2.4.1
